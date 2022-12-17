@@ -1,0 +1,44 @@
+.navbar{
+    width: 100%;
+    height: 100%;
+    background-color:  white;
+    display: flex;
+    flex-direction: row;
+    border-bottom: white 300 px; 
+}
+
+.navbar .leftSide {
+    flex : 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    margin:1%;
+}
+
+.navbar .leftSide img {
+    width: 5%;
+}
+
+.navbar .rightSide{
+    flex : 50%;
+    height: 50%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    margin: 5%;
+    font-size: 15px;
+    position: relative;
+    right: 40%;
+}
+.navbar .rightSide .btn-contact-us{
+    color: white;
+    background-color: #0066ff;
+    height: 50%;
+    margin:3.5%;
+}
