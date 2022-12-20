@@ -3,6 +3,7 @@ import logo from '../assets/logo.jpeg';
 import '../styles/Navbar.css';
 import { Link } from "react-router-dom";
 import { Button } from "@mui/material";
+
 function Navbar(){
     return(
         <div className="navbar">
@@ -14,7 +15,9 @@ function Navbar(){
                 <Link to="/">Overview</Link>
                 <Link to="/">Pages</Link>
                 <Link to="/">Templates</Link>
-                <Button variant="contained" className="btn-contact-us">Contact Us</Button>
+                <Button variant="contained" className="btn-contact-us">
+                    Contact Us
+                </Button>
 
             </div>
             

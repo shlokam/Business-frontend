@@ -1,0 +1,58 @@
+.page{
+    text-align: left;
+    margin-top: 5%;
+}
+
+.page h3{
+    font-size: 150%;
+    inline-size: 200px;
+    overflow-wrap: break-word;
+    padding-left: 22%;
+}
+
+.page p{
+
+    font-size: 100%;
+    inline-size: 400px;
+    overflow-wrap: break-word;
+    /* padding-left: 22%; */
+
+}
+
+.page .leftSide{
+    padding-left: 22%;
+
+}
+
+.page h1{
+    font-size: 250%;
+    inline-size: 400px;
+    overflow-wrap: break-word;
+    /* padding-left: 22%; */
+    padding-top: 10%;
+}
+
+.page .rightSide{
+    inline-size: 400px;
+    overflow-wrap: break-word;
+    padding-left: 10%;
+    color: gray;
+    padding-top: 5%;
+}
+
+.page .btn{
+    /* padding-top: 30%; */
+    /* margin-top: 5%; */
+    margin-left:55%;
+}
+ /* .page .box{
+    color: aquamarine;
+ } */
+
+ .page .heading-span{
+    background-color: blue;
+    color: white;
+    /* width:200%;
+    height: 200%; */
+    font-size: "48px";
+ }
